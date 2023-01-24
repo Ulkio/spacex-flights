@@ -3,10 +3,10 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Home = () => {
   return (
-    <section className="bg-starship-bg-light  h-screen bg-cover bg-opacity-10 dark:bg-starship-bg-dark dark:text-white ">
-      <div className="flex flex-col h-full justify-center gap-8 w-1/2 pl-32">
-        <h2 className="font-black text-5xl">Reach for the stars with us.</h2>
-        <p className="font-light text-2xl ">
+    <section className="bg-starship-bg-light h-screen bg-cover  bg-opacity-10 dark:bg-starship-bg-dark dark:text-white ">
+      <div className="flex flex-col h-full justify-center items-center gap-8 ">
+        <h2 className="font-black text-2xl md:text-5xl">Reach for the stars with us.</h2>
+        <p className="font-light text-sm md:text-2xl ">
           It's more than just a catchphrase, it's a promise to provide you with a once in a lifetime experience. <br />
           Our state-of-the-art rockets and highly trained team will ensure a safe and unforgettable journey. <br />
           Join us as we push the boundaries of human exploration and make history together.

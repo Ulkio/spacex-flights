@@ -9,12 +9,12 @@ const Dragon = () => {
       initial={{ y: 999, transition: { type: "linear" } }}
       animate={{ y: 0, transition: { type: "linear" } }}
       exit={{ y: 999, transition: { type: "linear" } }}>
-      <div className="flex flex-row">
+      <div className="flex flex-col md:flex-row">
         <div className="basis-1/3">
-          <img src="/assets/dragon.jpg" alt="falcon" className="h-screen  object-cover" />
+          <img src="/assets/dragon.jpg" alt="falcon" className="md:h-screen  object-cover" />
         </div>
-        <div className="basis-1/2 flex flex-col justify-center gap-16 pl-32 dark:text-white">
-          <h2 className="text-6xl font-black">DRAGON</h2>
+        <div className="md:basis-1/2 w-full items-center md:items-start flex flex-col justify-center gap-16 md:pl-32 dark:text-white">
+          <h2 className="text-2xl md:text-6xl font-black">DRAGON</h2>
           <p className="text-lg font-regular ">
             A reusable spacecraft developed by SpaceX for carrying cargo and potentially humans to and from low Earth
             orbit, the International Space Station and beyond. It has been flown in both cargo and crewed versions.
